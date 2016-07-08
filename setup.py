@@ -10,7 +10,7 @@ for rst in ('README.rst', 'LICENSE.rst'):
         long_descriptions.append(f.read())
 
 setup(name='iotrelay_nest',
-    version='0.1.0',
+    version='1.0.0',
     description='IoT Relay plugin for the Nest Thermostat',
     long_description='\n\n'.join(long_descriptions),
     author='Emmanuel Levijarvi',
